@@ -253,6 +253,15 @@ footer{
 	height: 50px;
 }
 
+.homeBtn{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 10px;
+	text-decoration: none;
+	margin-bottom: 0;
+}
+
 .footerStuffs{
 	display: flex;
 	justify-content: center;
@@ -270,6 +279,46 @@ footer{
 	margin-bottom: 0;
 }
 
+/*web stuff*/
+
+.blacksiteDescrip{
+	width: 100%;
+	height: 100px;
+	background-color: grey;
+	margin-top: 85px;
+}
+
+@media screen and (max-width:550px) {
+	.blacksiteDescrip{
+		width: 100%;
+		height: 900px;
+		width: 100%;
+		height: 100px;
+		background-color: grey;
+		margin-top: 140px;
+	}
+}
+
+.webContain{
+	width: 100%;
+	height: 300px;
+	background-color: grey;
+	margin-top: 85px;
+}
+
+@media screen and (max-width:550px) {
+	.webContain{
+	width: 100%;
+	height: 300px;
+	background-color: grey;
+	margin-top: 20px;
+	}
+}
+
+
+
+/*ad stuff*/
+
 .logoOne{
 	margin-top: 100px;
 	display: flex;
@@ -277,8 +326,9 @@ footer{
 	align-items: center;
 	width: 100%;
 	height: 200px;
-	background-color: black;
+	// background-color: white;
 }
+
 
 @media screen and (max-width:550px) {
 	.logoOne{
@@ -293,7 +343,7 @@ footer{
 	align-items: center;
 	width: 100%;
 	height: 200px;
-	background-color: black;
+	// background-color: black;
 }
 
 @media screen and (max-width:550px) {
@@ -304,7 +354,7 @@ footer{
 	align-items: center;
 	width: 100%;
 	height: 200px;
-	background-color: black;
+	// background-color: black;
 	}
 }
 
@@ -315,7 +365,7 @@ footer{
 	align-items: center;
 	width: 100%;
 	height: 200px;
-	background-color: black;
+	// background-color: black;
 }
 
 .logoFour{
@@ -325,19 +375,148 @@ footer{
 	align-items: center;
 	width: 100%;
 	height: 200px;
-	background-color: black;
+	// background-color: black;
 }
 
-.homeBtn{
-	color: white;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 10px;
-	text-decoration: none;
-	margin-bottom: 0;
+/*design stuff*/
+
+
+
+.keyArt1{
+	background-image: url("../images/posters/all-is-lost.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 100px;
+	width: 100%;
+	height: 300px;
+	// background-color: grey;
 }
 
+.keyArt2{
+	background-image: url("../images/posters/thin-red-line.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 100px;
+	width: 100%;
+	height: 300px;
+	// background-color: grey;
+}
 
+.keyArt3{
+	background-image: url("../images/posters/mad-men.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 100px;
+	width: 100%;
+	height: 300px;
+	// background-color: grey;
+}
+
+.keyArt4{
+	background-image: url("../images/posters/layer-cake.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 300px;
+	// background-color: grey;
+}
+
+.keyArt5{
+	background-image: url("../images/posters/american-psycho.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 300px;
+	// background-color: grey;
+}
+
+.keyArt6{
+	background-image: url("../images/posters/friday-the-13th.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 300px;
+	// background-color: grey;
+}
+
+.keyArt7{
+	background-image: url("../images/posters/the-leftovers.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 320px;
+	// background-color: grey;
+}
+
+.keyArt8{
+	background-image: url("../images/posters/collateral.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 320px;
+	// background-color: grey;
+}
+
+.logo1{
+	background-image: url("../images/logos/decibel.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 286px;
+	// margin-left: 20px;
+	// background-color: grey;
+}
+
+.logo2{
+	background-image: url("../images/logos/milk.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 286px;
+	// margin-left: 20px;
+	// background-color: grey;
+}
+
+.logo3{
+	background-image: url("../images/logos/transistor.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 286px;
+	// margin-left: -20px;
+	// background-color: grey;
+}
+
+.transistor{
+	background-image: url("../images/logos/transistor-poster.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 286px;
+	// margin-left: -20px;
+	// background-color: grey;
+}
 
 
 
