@@ -95,21 +95,22 @@
 }
 
 .slbCaption {
+  font-family: 'Roboto', sans-serif;
   display: inline-block;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   word-wrap: normal;
-  font-size: 1.4em;
+  font-size: 10px;
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
-  padding: 0.71429em 0;
-  color: #fff;
+  bottom: 40px;
+  padding: 0;
+  color: white;
   color: rgba(255, 255, 255, 0.7);
-  text-align: center;
+  text-align: left;
 }
 
 .slbCloseBtn, .slbArrow {

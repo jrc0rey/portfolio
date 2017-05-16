@@ -281,11 +281,11 @@ footer{
 
 /*web stuff*/
 
-.blacksiteDescrip{
+.greySiteDescrip, .tAppDescrip, .apiAppDescrip, .scofflawDescrip{
 	width: 100%;
 	height: 100px;
 	background-color: grey;
-	margin-top: 85px;
+	margin-top: 125px;
 }
 
 @media screen and (max-width:550px) {
@@ -299,15 +299,83 @@ footer{
 	}
 }
 
-.webContain{
+@media screen and (max-width:550px) {
+	.tAppDescrip, .apiAppDescrip, .parkingAppDescrip{
+		width: 100%;
+		height: 900px;
+		width: 100%;
+		height: 100px;
+		// background-color: grey;
+		margin-top: 80px;
+	}
+}
+
+.webContain, .webContain3, .webContain4{
 	width: 100%;
 	height: 300px;
 	background-color: grey;
 	margin-top: 85px;
 }
 
+.webContain{
+	background-image: url("../images/web/scofflaw.jpg"); 
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	// background-color: grey;
+	margin-top: 85px;
+}
+
+.webContain2{
+	background-image: url("../images/web/api_collection.jpg"); 
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	// background-color: grey;
+	margin-top: 85px;
+}
+
+.webContain3{
+	background-image: url("../images/web/game.jpg"); 
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	// background-color: grey;
+	margin-top: 85px;
+}
+
+.greySite{
+	margin-top:20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px; 	
+	font-weight: 100;
+	color: black;
+	margin-bottom: 0;
+}
+
+.tools{
+	font-size: 10px;
+}
+
+.webContain4{
+	background-image: url("../images/web/t-shirt_app.jpg"); 
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	// background-color: grey;
+	margin-top: 85px;
+}
+
 @media screen and (max-width:550px) {
-	.webContain{
+	.webContain, .webContain2, .webContain3, .webContain4{
 	width: 100%;
 	height: 300px;
 	background-color: grey;
@@ -568,7 +636,93 @@ footer{
 	// background-color: grey;
 }
 
+.vecOne{
+	background-image: url("../images/illustrations/vec-1.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 165px;
+	// background-color: grey;
+}
 
+.vecTwo{
+	background-image: url("../images/illustrations/vec-2.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 165px;
+	// background-color: grey;
+}
+
+.vecThree{
+	background-image: url("../images/illustrations/vec-3.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 165px;
+	// background-color: grey;
+}
+
+.vecFour{
+	background-image: url("../images/illustrations/vec-4.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 165px;
+	// background-color: grey;
+}
+
+.vecFive{
+	background-image: url("../images/illustrations/vec-5.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 165px;
+	// background-color: grey;
+}
+
+.vecSix{
+	background-image: url("../images/illustrations/vec-6.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 165px;
+	// background-color: grey;
+}
+
+.vecSeven{
+	background-image: url("../images/illustrations/vec-7.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 165px;
+	// background-color: grey;
+}
+
+.vecEight{
+	background-image: url("../images/illustrations/vec-8.jpg");
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 100%;
+	height: 165px;
+	// background-color: grey;
+}
 
 
 
